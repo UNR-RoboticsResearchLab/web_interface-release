@@ -1,0 +1,13 @@
+Source: ros-indigo-rosweb
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-rosjson, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-rosservice, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/rosweb
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosweb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rosjson, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-rosservice, ros-indigo-std-msgs
+Description: rosweb is a temporary package to replace the original rosweb in the ROS repository.
+ It is placed in the sandbox while development is ongoing, so we are not gated on ROS stack releases. When the server is more stable, it will be moved to the ROS repository and replace the old rosweb.
