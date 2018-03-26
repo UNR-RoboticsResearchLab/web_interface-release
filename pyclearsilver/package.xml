@@ -1,0 +1,14 @@
+<package>
+  <name>pyclearsilver</name>
+  <version>1.0.7</version>
+  <description>A bunch of libraries to interface clearsilver with python and many databases.</description>
+  <maintainer email="dave@cse.unr.edu">Dave Feil-Seifer</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/pyclearsilver</url>
+
+  <author email="hassan@willowgarage.com">Scott Noob Hassan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
