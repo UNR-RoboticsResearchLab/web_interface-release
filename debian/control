@@ -1,0 +1,12 @@
+Source: ros-indigo-launchman
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-roslaunch, ros-indigo-rospy, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/launchman
+Standards-Version: 3.9.2
+
+Package: ros-indigo-launchman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-roslaunch, ros-indigo-rospy, ros-indigo-std-msgs
+Description: Launch Manager
