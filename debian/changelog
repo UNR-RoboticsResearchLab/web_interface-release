@@ -1,0 +1,41 @@
+ros-indigo-launchman (1.0.7-2trusty) trusty; urgency=high
+
+  * ros_apache2: updated dependencies to include necessary apache2 mod-python
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Wed, 21 Mar 2018 07:00:00 -0000
+
+ros-indigo-launchman (1.0.6-2trusty) trusty; urgency=high
+
+  * updated maintainer for web_interface packages
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Tue, 20 Mar 2018 07:00:00 -0000
+
+ros-indigo-launchman (1.0.5-2trusty) trusty; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-indigo-launchman (1.0.4-2trusty) trusty; urgency=high
+
+  * removed tmp files
+  * Contributors: David Feil-Seifer
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-indigo-launchman (1.0.3-2trusty) trusty; urgency=high
+
+
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-indigo-launchman (1.0.2-2trusty) trusty; urgency=high
+
+  * Changelogs
+  * Contributors: TheDash
+
+ -- Dave Feil-Seifer <dave@cse.unr.edu>  Thu, 18 Jun 2015 07:00:00 -0000
+
+
