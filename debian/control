@@ -1,0 +1,12 @@
+Source: ros-indigo-webui
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-launchman, ros-indigo-pyclearsilver, ros-indigo-ros-apache2, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-rosservice, ros-indigo-rosweb, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-web-msgs
+Homepage: http://ros.org/wiki/webui
+Standards-Version: 3.9.2
+
+Package: ros-indigo-webui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-msgs, ros-indigo-launchman, ros-indigo-pyclearsilver, ros-indigo-ros-apache2, ros-indigo-roslib, ros-indigo-rospy, ros-indigo-rosservice, ros-indigo-rosweb, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-web-msgs
+Description: A web interface to install and launch applications for the PR2.
