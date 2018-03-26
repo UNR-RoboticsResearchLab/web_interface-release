@@ -1,0 +1,12 @@
+Source: ros-indigo-web-interface
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-web-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-image-stream, ros-indigo-launchman, ros-indigo-pyclearsilver, ros-indigo-ros-apache2, ros-indigo-rosjson, ros-indigo-rosweb, ros-indigo-web-msgs, ros-indigo-webui
+Description: The web_interface package
