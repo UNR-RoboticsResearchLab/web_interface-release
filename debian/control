@@ -1,0 +1,12 @@
+Source: ros-indigo-pyclearsilver
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/pyclearsilver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pyclearsilver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: A bunch of libraries to interface clearsilver with python and many databases.
