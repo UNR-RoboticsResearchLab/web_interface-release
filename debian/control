@@ -1,0 +1,12 @@
+Source: ros-kinetic-webui
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-diagnostic-msgs, ros-kinetic-launchman, ros-kinetic-pyclearsilver, ros-kinetic-ros-apache2, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rosservice, ros-kinetic-rosweb, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-web-msgs
+Homepage: http://ros.org/wiki/webui
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-webui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-diagnostic-msgs, ros-kinetic-launchman, ros-kinetic-pyclearsilver, ros-kinetic-ros-apache2, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rosservice, ros-kinetic-rosweb, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-web-msgs
+Description: A web interface to install and launch applications for the PR2.
