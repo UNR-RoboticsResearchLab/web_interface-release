@@ -1,0 +1,13 @@
+Source: ros-kinetic-rosweb
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rosjson, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rosservice, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/rosweb
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rosweb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rosjson, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rosservice, ros-kinetic-std-msgs
+Description: rosweb is a temporary package to replace the original rosweb in the ROS repository.
+ It is placed in the sandbox while development is ongoing, so we are not gated on ROS stack releases. When the server is more stable, it will be moved to the ROS repository and replace the old rosweb.

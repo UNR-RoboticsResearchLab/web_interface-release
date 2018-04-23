@@ -1,0 +1,40 @@
+ros-kinetic-rosweb (1.0.7-0jessie) jessie; urgency=high
+
+  * ros_apache2: updated dependencies to include necessary apache2 mod-python
+  * Contributors: David Feil-Seifer
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 21 Mar 2018 07:00:00 -0000
+
+ros-kinetic-rosweb (1.0.6-0jessie) jessie; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 20 Mar 2018 07:00:00 -0000
+
+ros-kinetic-rosweb (1.0.5-0jessie) jessie; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-kinetic-rosweb (1.0.4-0jessie) jessie; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-kinetic-rosweb (1.0.3-0jessie) jessie; urgency=high
+
+  * update package.xml files to make David Feil-Seifer the official maintainer
+  * Contributors: David Feil-Seifer
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 14 Mar 2018 07:00:00 -0000
+
+ros-kinetic-rosweb (1.0.2-0jessie) jessie; urgency=high
+
+  * Changelogs
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Thu, 18 Jun 2015 07:00:00 -0000
+
+
