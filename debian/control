@@ -1,0 +1,12 @@
+Source: ros-kinetic-web-interface
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-web-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-image-stream, ros-kinetic-launchman, ros-kinetic-pyclearsilver, ros-kinetic-ros-apache2, ros-kinetic-rosjson, ros-kinetic-rosweb, ros-kinetic-web-msgs, ros-kinetic-webui
+Description: The web_interface package
