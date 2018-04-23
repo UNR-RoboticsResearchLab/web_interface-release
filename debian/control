@@ -1,0 +1,12 @@
+Source: ros-kinetic-rosjson
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslib, ros-kinetic-rospy
+Homepage: http://ros.org/wiki/rosjson
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rosjson
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roslib, ros-kinetic-rospy
+Description: rosjson is a Python library for converting ROS messages to JSON (JavaScript Object Notation) representation.
