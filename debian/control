@@ -1,0 +1,12 @@
+Source: ros-kinetic-image-stream
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-opencv3, ros-kinetic-rospy, ros-kinetic-rosweb
+Homepage: http://ros.org/wiki/image_stream
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-image-stream
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cv-bridge, ros-kinetic-opencv3, ros-kinetic-rospy, ros-kinetic-rosweb
+Description: rosweb plugin to serve images as streams (MJPEG, Theora, FLV, etc)
