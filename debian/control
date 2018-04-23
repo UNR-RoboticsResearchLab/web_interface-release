@@ -1,0 +1,12 @@
+Source: ros-kinetic-launchman
+Section: misc
+Priority: extra
+Maintainer: Dave Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/launchman
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-launchman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roslaunch, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: Launch Manager
